@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: black;
+  color: white;
+
+}
+button{
+  height: 60px;
+  width: 132.8px;
+  /* border: 1px solid rgb(157, 154, 154); */
+  background-color: rgb(255, 255, 255);
+  color: orangered;
+  cursor: pointer;
+}
+button:active{
+  background-color: rgb(209, 209, 212);
+}
+input{
+  background-color: rgba(255, 255, 255, 0.961);
+  user-select: none;
+  font-family: arial;
+  letter-spacing: 2px;
+  color: rgb(255, 55, 0);
+  
+}
