@@ -24,7 +24,7 @@ const Pinlock = () => {
   }
   return (
     <div>
-      <h1 className='font-bold text-center text-xl text-orange-300'>PIN-LOCK</h1>
+      <h1 className='font-bold text-center text-xl text-orange-300'>PIN-LOCK-PASSWORD</h1>
 
       <div className="lock h-[300px] w-[400px] shadow-xl shadow-orange-500 m-auto mt-3">
         <input type="text" value={input} className='text-center pe-2 w-full h-[53px] text-2xl font-bold ' placeholder='enter your pin' disabled />
